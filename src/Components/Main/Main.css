@@ -2,11 +2,11 @@
 .Main{
     width: 100%;
     height: 100vh;
-
 }
 
 .BottomBar-Col{
     margin-top: auto;
+    height: 5rem;
 
 }
 

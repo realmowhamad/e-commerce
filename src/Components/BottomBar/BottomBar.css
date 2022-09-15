@@ -1,8 +1,10 @@
 .bottomBar-icons {
+
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
+    margin-top: 0.2rem;
     justify-content: space-around;
     background: radial-gradient(circle at top center, transparent 40px, #FFF 0) no-repeat;
     border-top-left-radius: 30px;
@@ -15,6 +17,8 @@
 .bottomBar-icons>* {
     font-size: 1.5rem;
     color: #AEB2B8;
+    z-index: 30;
+
 }
 
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,20 +27,16 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-overflow: hidden;
+
 background-image: linear-gradient(to bottom, #eef2f3, #dee8ec, #cfdde6, #c2d2e1, #b8c6db);
+font-family: 'Poppins','Roboto', sans-serif;
+
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
